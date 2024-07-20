@@ -1,0 +1,172 @@
+*{
+    /* border: 1px solid red; */
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+    margin-top: 1rem;
+}
+
+body{
+    background-color: #202124;
+    color: white;
+    font-family: "Playfair Display", serif;
+}
+
+
+header, nav{
+    display: flex;
+    justify-content: flex-end;
+    /* margin-bottom: 2rem; */
+}
+
+.block-image1{
+    width: 60%;
+    margin: auto;
+}
+
+.image1{
+    width: 100%;
+}
+
+.header-menu{
+    margin-right: 1rem;
+    text-decoration: none;
+    color: white;
+}
+
+.menu{
+    align-items: center;
+}
+
+.icon{
+    cursor: pointer;
+}
+
+.formulaire,.logo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.formulaire{
+    border-radius: 2rem;
+    border: 1px solid #5f6368;
+}
+
+.formulaire:hover, input:hover{
+    background-color: #303134;
+}
+
+.input-text{
+    width: 70%;
+}
+
+input{
+    background-color: rgba(1, 1, 1, 0);
+    width: 100%;
+    border: none;
+    color: white;
+}
+
+.btn-block{
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    margin-top: 1.5rem;
+}
+
+.block-google{
+    margin: 0 0.5rem;
+}
+
+.btn-google{
+    background-color: #303134;
+    color: white;
+    border: none;
+    padding: 0.4rem;
+}
+
+button{
+    cursor: pointer;
+}
+
+.google-text{
+    color: #888889;
+    font-size: 0.8rem;
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.google-text a{
+    text-decoration: none;
+    color: #647c9f;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+footer{
+    background-color: #171717;
+    font-size: 0.4rem;
+    /* align-items: flex-end; */
+}
+
+.footer-block2{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+    border-top: 1px solid grey;
+    padding: 1rem 0;
+}
+
+.footer-subblock1, .footer-subblock2{
+    display: flex;
+}
+
+.link-menu-footer{
+    color: white;
+    text-decoration: none;
+}
+
+@media screen and (min-width: 1024px){
+    .block-image1{
+        width: 30%;
+    }
+
+    .formulaire{
+        width: 50%;
+        padding: 0.5rem;
+        margin: auto;
+    }
+
+    .input-text{
+        width: 85%;
+    }
+
+    .btn-google{
+        margin: 1rem 0;
+        padding: 1rem 2rem;
+        border-radius: 0.5rem;
+        font-size: 1rem;
+    }
+
+    footer{
+        font-size: 1rem;
+    }
+
+    .footer-text{
+        margin: 1rem;
+    }
+
+    .link-menu-footer{
+        margin: 0 1rem;
+    }
+
+}
